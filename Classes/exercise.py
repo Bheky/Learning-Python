@@ -24,6 +24,11 @@ class Restaurant:
 # Creating an instance of the Restaurant class.
 restaurant = Restaurant('Golden Valley', 'Fish')
 
+# Three different instances from the class
+local_restaurant = Restaurant('Gambit', 'Italian')
+pizza_place = Restaurant('Pizza Hut', 'Italian')
+kebab_place = Restaurant('Hamed Van', 'Kebab')
+
 # Printing attributes
 print(f"Restaurant name: {restaurant.restaurant_name}")
 print(f"Cuisine type: {restaurant.cuisine_type}")
@@ -31,3 +36,7 @@ print(f"Cuisine type: {restaurant.cuisine_type}")
 # Calling methods
 restaurant.describe_restaurant()
 restaurant.open_restaurant()
+
+local_restaurant.describe_restaurant()
+pizza_place.describe_restaurant()
+kebab_place.describe_restaurant()
