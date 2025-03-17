@@ -19,9 +19,12 @@ class Dog:
 
 # Calling methods
 my_fave_dog = Dog('Speaf', 5)
-my_fave_dog.sit()
-my_fave_dog.roll_over()
+your_dog = Dog('Bruno', 8)
 
-print(f"My do's name is {my_fave_dog.name}.")
+print(f"My dog's name is {my_fave_dog.name}.")
 print(f"He is {my_fave_dog.age} years old.")
+my_fave_dog.sit()
 
+print(f"\nYour dog's name is {your_dog.name}.")
+print(f"He is {your_dog.age} years old.")
+your_dog.roll_over()
